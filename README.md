@@ -43,16 +43,6 @@ The dataset used was `reddit_data_not_processed.csv` which I had created for the
 * The pandas dataframe is used to hold the data, and the Hugging face transformers library is used for the model and tokenizer.
 * Pytorch is used to process the model.
 
-# GeoPandas 
-Performed spatial operations using GeoPandas and Descartes libraries. Used Matplotlib for some visualization.
-* Reading shapefiles into Geopandas GeoDataFrames.
-* Plotting GeoDataFrames with various styles and color maps.
-* Plotting multiple GeoDataFrames side-by-side and overlaid.
-* Checking and transforming Coordinate Reference Systems (CRS).
-* Intersecting spatial layers using `gpd.overlay`.
-* Calculating the area of intersected polygons.
-* Exporting a GeoDataFrame to a shapefile.
-
 # Plotly
 Created various interactive plots to explore relationships between different variables in the Gapminder dataset, such as GDP per capita, life expectancy, population, and continent.
 The dataset used was the Gapminder dataset (`px.data.gapminder()`)
@@ -70,6 +60,21 @@ The dataset used was the Gapminder dataset (`px.data.gapminder()`)
 * Customizable plot layouts and templates
 * Text annotations on lines.
 
+Some examples of the visualizations (as the .ipynb file uploaded in this repo does not open due to its size) : 
+![newplot](https://github.com/user-attachments/assets/ff0858f5-9738-4e07-8651-55caa859d77d)
+![newplot1](https://github.com/user-attachments/assets/96fe0a9c-2216-4136-9bec-8a8e28b6b207)
+![newplot2](https://github.com/user-attachments/assets/277b7c1d-b61f-4f6b-9d54-d26dfc36208f)
+![newplot3](https://github.com/user-attachments/assets/43a8de09-7758-4157-82f1-17764383fa4a)  
+
+# GeoPandas 
+Performed spatial operations using GeoPandas and Descartes libraries. Used Matplotlib for some visualization.
+* Reading shapefiles into Geopandas GeoDataFrames.
+* Plotting GeoDataFrames with various styles and color maps.
+* Plotting multiple GeoDataFrames side-by-side and overlaid.
+* Checking and transforming Coordinate Reference Systems (CRS).
+* Intersecting spatial layers using `gpd.overlay`.
+* Calculating the area of intersected polygons.
+* Exporting a GeoDataFrame to a shapefile.
 
 # Sentiment Analysis: VADER and TextBlob
 Explored sentiment analysis using two popular Python libraries: TextBlob and VADER (Valence Aware Dictionary and sEntiment Reasoner).  
